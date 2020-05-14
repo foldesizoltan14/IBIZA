@@ -9,8 +9,7 @@ public class RSA {
 
         if (number == 2)
             return true;
-        if (number < 2)
-            return false;
+       
 
         long alap = 2 + (long) (Math.random() * (alapHatar));
 
