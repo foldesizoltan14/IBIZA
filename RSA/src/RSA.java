@@ -13,7 +13,7 @@ public class RSA {
 
         long alap = 2 + (long) (Math.random() * (alapHatar));
 
-        while(kitevo%2!=1){
+        while(kitevo%2==0){
             kitevo=kitevo/2;
             osztasokSzama++;
         }
